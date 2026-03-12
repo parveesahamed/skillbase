@@ -1,0 +1,24 @@
+/* ── Global App Styles ── */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Smooth page transitions */
+.App > main,
+.App > div:not(nav):not(footer) {
+  flex: 1;
+}
+
+/* Navbar logo — hard cap for safety */
+nav img {
+  max-height: 32px;
+  width: auto;
+}
+
+footer img {
+  max-height: 32px;
+  width: auto;
+}
